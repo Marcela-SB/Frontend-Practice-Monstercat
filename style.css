@@ -1,1 +1,53 @@
+:root{
+  --branco : #fdfdfd;
+  --azul : #1e90ff;
+  --cinza : #383838;
+  --preto : #000000;
+}
 
+
+
+body{
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  background-image: url(https://cdn.monstercat.com/background-tile.webp);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hidden{
+  visibility: hidden;
+  position: absolute;
+}
+
+header{
+  display: inline-block;
+  flex: auto;
+  align-items: space-between;
+}
+
+.display{
+  display: flex;
+}
+.display i, #display{
+  border: var(--branco) solid 1px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+i{
+  color: var(--branco);
+  font-size: 50px;
+}
