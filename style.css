@@ -170,6 +170,12 @@ button{
   gap: 5px;
   padding: 0 18px;
 }
+#btn-listen-now i{
+  font-size: 30px;
+}
+#btn-share i{
+  font-size: 20px;
+}
 button:hover, #btn-listen-now:hover, #btn-share:hover{
   background-color: var(--branco);
   color: var(--preto);
